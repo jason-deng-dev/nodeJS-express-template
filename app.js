@@ -11,6 +11,10 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 const path = require("node:path");
 
+// Setup for express validator
+const { body, validationResult } = require("express-validator");
+
+
 
 
 app.get("/", (req, res) => res.send("Hello, world!"));
