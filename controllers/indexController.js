@@ -1,1 +1,1 @@
-const db = require('../db/queries');
+import db from '../db/queries.js';

@@ -1,7 +1,10 @@
-const express = require('express');
+import express from 'express'
+import path from 'node:path'
+import indexRouter from './routes/indexRouter.js'
+
+
 const app = express();
-const path = require('node:path');
-const indexRouter = require('./routes/indexRouter');
+
 
 // setup for static assets
 const assetsPath = path.join(__dirname, 'public');
