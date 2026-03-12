@@ -1,0 +1,1 @@
+1. setup .env DATABASE_UR = "postgresql://username:password@localhost:5432/mydb?schema=public"
