@@ -2,6 +2,11 @@ import express from 'express'
 import path from 'node:path'
 import indexRouter from './routes/indexRouter.js'
 
+import { fileURLToPath } from 'node:url'
+import { dirname } from 'node:path'
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
 
 const app = express();
 

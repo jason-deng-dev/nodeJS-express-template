@@ -1,1 +1,1 @@
-import db from '../db/queries.js';
+import * as db from '../db/queries.js';
